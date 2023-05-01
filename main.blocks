@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="~/b?N,T$fHY,iNh)CF}z" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="j,{4^Y_:qA239b^#I!]O"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="3iS#1+)_Td#n*~TeuKe~"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="b$O%Z2Lo0([|~n#q6KI1"></block></value><value name="B"><shadow type="math_number" id="MHZBfJ8lJ#9D~V1_$htr"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_icon" id="_wO}%Jg,N@JTgt]E|SJB"><field name="i">IconNames.Asleep</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="]i{ju/%UviYB4fx70M!U"><field name="i">IconNames.Happy</field></block></statement></block></statement></block><block type="device_gesture_event" id=";X0ZX^d@+@sSKt0o8H76" x="662" y="343"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="^m2gj=p1V1nb{Y^fzXBH"><field name="i">IconNames.Sad</field></block></statement></block><block type="device_button_event" id="X;x6aJw{1X2[I^:kIVUt" x="34" y="408"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="CwDh@klHRN5b,Jefw5/4"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # # # # . 
+        # . . # . 
+        # . . # .
+        `</field></block></statement></block><block type="device_button_event" id="%qh5*t3d{kR-LOc/8ZRp" x="329" y="393"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="ot).1_,8VJDg7;olS5,C"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # . . 
+        # . . # . 
+        # # # . .
+        `</field></block></statement></block><block type="input_logo_event" id="(,C(-u*Y$z7?rr/1fYTF" x="108" y="804"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="lq4bd:U?d[XjaBu8qj-j"><field name="i">IconNames.Surprised</field></block></statement></block></xml>
